@@ -40,11 +40,13 @@ Copiar
 Editar
 pip freeze > requirements.txt
 🔧 Configuração e Execução
+
 1. Aplicar Migrações
 bash
 Copiar
 Editar
 python manage.py migrate
+
 2. Criar Superusuário (para acessar o painel administrativo)
 bash
 Copiar
@@ -57,6 +59,7 @@ bash
 Copiar
 Editar
 python manage.py runserver
+
 4. Acessar o Sistema
 Abra seu navegador e acesse:
 
