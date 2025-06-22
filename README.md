@@ -1,61 +1,64 @@
- 📦 Sistema de Gestão de Estoque (SGE)
+📦 Sistema de Gestão de Estoque (SGE)
 
 Bem-vindo ao **Sistema de Gestão de Estoque (SGE)**, um projeto desenvolvido em **Django** e **Bootstrap 5** com o objetivo de facilitar o gerenciamento de estoque de forma simples e eficiente.
 
-<img src="/img/image.png">
+---
 
 ## ✅ Requisitos
 
-Certifique-se de ter os seguintes itens instalados em seu sistema:
-
-- **Python** (recomendado: 3.7 ou superior)
-- **Virtualenv** (opcional, mas recomendado)
-- **Django** (instalado via `requirements.txt`)
-- Demais dependências listadas no arquivo `requirements.txt`
+- Python 3.7 ou superior
+- Git
+- Virtualenv (opcional, mas recomendado)
 
 ---
 
-## ⚙️ Instalação do Projeto
-
-### 1. Clone o repositório
+## 🚀 Clonando o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
-2. Crie e ative o ambiente virtual (recomendado)
+git clone https://github.com/kleitonmac/sge.git
+cd sge
+🧪 Criando e Ativando Ambiente Virtual
 bash
 Copiar
 Editar
 python -m venv venv
+
 # Ativar no Windows
 venv\Scripts\activate
+
 # Ativar no Linux/Mac
 source venv/bin/activate
-3. Instale as dependências
+📦 Instalando Dependências
 bash
 Copiar
 Editar
 pip install -r requirements.txt
+❗ Caso ainda não tenha o requirements.txt, você pode gerar com:
+
+bash
+Copiar
+Editar
+pip freeze > requirements.txt
 🔧 Configuração e Execução
-1. Aplique as migrações
+1. Aplicar Migrações
 bash
 Copiar
 Editar
 python manage.py migrate
-2. Crie um superusuário (para acessar o admin)
+2. Criar Superusuário (para acessar o painel administrativo)
 bash
 Copiar
 Editar
 python manage.py createsuperuser
 Siga as instruções no terminal para definir usuário, e-mail e senha.
 
-3. Rode o servidor
+3. Rodar o Servidor
 bash
 Copiar
 Editar
 python manage.py runserver
-4. Acesse o sistema
-Abra seu navegador e vá para:
+4. Acessar o Sistema
+Abra seu navegador e acesse:
 
 arduino
 Copiar
@@ -64,11 +67,9 @@ http://localhost:8000
 🛠 Tecnologias Utilizadas
 Django
 
-Bootstrap 5
 
-SQLite3 (padrão do Django para testes locais)
-
+SQLite3
 
 👨‍💻 Autor
 Kleiton Macedo
-LinkedIn
+🔗https://www.linkedin.com/in/kleitonmacedo/
