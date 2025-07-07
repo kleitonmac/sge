@@ -3,6 +3,7 @@
 Bem-vindo ao **Sistema de Gestão de Estoque (SGE)**, um projeto desenvolvido em **Django** e **Bootstrap 5** com o objetivo de facilitar o gerenciamento de estoque de forma simples e eficiente.
 
 ---
+<img src="https://raw.githubusercontent.com/kleitonmac/sge/refs/heads/main/img/image.png">
 
 ## ✅ Requisitos
 
